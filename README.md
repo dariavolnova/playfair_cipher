@@ -12,13 +12,13 @@ from playfair_cipher import PlayfairCipher
 
 cipher = PlayfairCipher("MONARCHY")
 encrypted = cipher.encrypt("INSTRUMENTS")
-print(encrypted)  # Output: GATLMZCLRQXA
+print(encrypted)
 
 decrypted = cipher.decrypt(encrypted)
-print(decrypted)  # Output: INSTRUMENTSX
+print(decrypted) 
 ```
 - Запустить тесты
 ``` python
-python -m unittest test_playfair.py
+python -m unittest test_playfair_cipher.py
 ```
 
